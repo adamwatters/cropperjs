@@ -1,5 +1,5 @@
 {
-  "name": "cropperjs-with-background",
+  "name": "cropperjs-with-background-image-option",
   "description": "Fork of cropper.js with backgroundImage option",
   "version": "1.0.0-alpha",
   "main": "dist/cropper.js",
