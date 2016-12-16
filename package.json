@@ -1,13 +1,12 @@
 {
-  "name": "cropperjs",
-  "description": "JavaScript image cropper.",
+  "name": "cropperjs-with-background",
+  "description": "Fork of cropper.js with backgroundImage option",
   "version": "1.0.0-alpha",
   "main": "dist/cropper.js",
   "license": "MIT",
-  "repository": "fengyuanchen/cropperjs",
-  "homepage": "https://fengyuanchen.github.io/cropperjs",
+  "repository": "adamwatters/cropperjs",
   "author": {
-    "name": "Fengyuan Chen",
+    "name": "Adam Watters",
     "url": "http://chenfengyuan.com"
   },
   "keywords": [
