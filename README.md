@@ -2,7 +2,7 @@
 
 > [Cropper.js](https://github.com/fengyuanchen/cropperjs) with one extra option
 
-[![Build Status Images](https://travis-ci.org/fengyuanchen/cropperjs.svg)](https://travis-ci.org/fengyuanchen/cropperjs)
+[![Build Status Images](https://travis-ci.org/adamwatters/cropperjs.svg)](https://travis-ci.org/adamwatters/cropperjs)
 
 ## Extra Option 
 
