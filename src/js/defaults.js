@@ -77,6 +77,9 @@ export default {
   // Toggle drag mode between "crop" and "move" when click twice on the cropper
   toggleDragModeOnDblclick: true,
 
+  // Add a URL to use as background for crop-box
+  cropBoxBackgroundImage: '',
+
   // Size limitation
   minCanvasWidth: 0,
   minCanvasHeight: 0,

@@ -352,6 +352,11 @@ class Cropper {
       $.addClass(face, 'cropper-invisible');
     }
 
+    if (options.cropBoxBackgroundImage) {
+      $.addClass(face, 'cropper-has-background-image');
+      $.setStyle(face, { backgroundImage: `url(${options.cropBoxBackgroundImage})` });
+    }
+
     if (options.cropBoxMovable) {
       $.addClass(face, 'cropper-move');
       $.setData(face, 'action', 'all');

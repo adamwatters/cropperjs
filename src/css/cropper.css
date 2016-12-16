@@ -311,6 +311,11 @@
   opacity: 0;
 }
 
+.cropper-has-background-image {
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 .cropper-bg {
   background-image: inline('../images/bg.png');
 }

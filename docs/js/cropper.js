@@ -5,7 +5,7 @@
  * Copyright (c) 2016 Fengyuan Chen
  * Released under the MIT license
  *
- * Date: 2016-12-04T14:06:47.119Z
+ * Date: 2016-12-16T20:47:39.385Z
  */
 
 (function (global, factory) {
@@ -92,6 +92,9 @@ var DEFAULTS = {
 
   // Toggle drag mode between "crop" and "move" when click twice on the cropper
   toggleDragModeOnDblclick: true,
+
+  // Add a URL to use as background for crop-box
+  cropBoxBackgroundImage: '',
 
   // Size limitation
   minCanvasWidth: 0,
@@ -3413,6 +3416,11 @@ var Cropper = function () {
 
       if (!options.highlight) {
         addClass(face, 'cropper-invisible');
+      }
+
+      if (options.cropBoxBackgroundImage) {
+        addClass(face, 'cropper-has-background-image');
+        setStyle(face, { backgroundImage: 'url(' + options.cropBoxBackgroundImage + ')' });
       }
 
       if (options.cropBoxMovable) {

@@ -8,6 +8,9 @@ window.Util = {
   hasClass: function (element, className) {
     return element.classList.contains(className);
   },
+  getStyle: function (element, property) {
+    return element.style[property];
+  },
   getByClass: function (element, className) {
     return element.getElementsByClassName ?
       element.getElementsByClassName(className) :
