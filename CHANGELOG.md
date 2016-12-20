@@ -1,5 +1,8 @@
 # Changelog
 
+## 1.0.0 (Dec 20, 2016)
+
+- Added backgroundOpacitiy option
 
 ## 1.0.0-alpha (Dec 4, 2016)
 
