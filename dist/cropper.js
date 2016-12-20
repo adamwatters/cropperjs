@@ -5,7 +5,7 @@
  * Copyright (c) 2016 Adam Watters
  * Released under the MIT license
  *
- * Date: 2016-12-16T21:43:13.720Z
+ * Date: 2016-12-20T16:29:04.989Z
  */
 
 (function (global, factory) {
@@ -95,6 +95,8 @@ var DEFAULTS = {
 
   // Add a URL to use as background for crop-box
   cropBoxBackgroundImage: '',
+
+  cropBoxBackgroundOpacity: NaN,
 
   // Size limitation
   minCanvasWidth: 0,
@@ -3421,6 +3423,10 @@ var Cropper = function () {
       if (options.cropBoxBackgroundImage) {
         addClass(face, 'cropper-has-background-image');
         setStyle(face, { backgroundImage: 'url(' + options.cropBoxBackgroundImage + ')' });
+      }
+
+      if (options.cropBoxBackgroundOpacity) {
+        setStyle(face, { opacity: options.cropBoxBackgroundOpacity });
       }
 
       if (options.cropBoxMovable) {

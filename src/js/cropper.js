@@ -357,6 +357,10 @@ class Cropper {
       $.setStyle(face, { backgroundImage: `url(${options.cropBoxBackgroundImage})` });
     }
 
+    if (options.cropBoxBackgroundOpacity) {
+      $.setStyle(face, { opacity: options.cropBoxBackgroundOpacity });
+    }
+
     if (options.cropBoxMovable) {
       $.addClass(face, 'cropper-move');
       $.setData(face, 'action', 'all');

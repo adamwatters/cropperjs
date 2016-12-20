@@ -80,6 +80,8 @@ export default {
   // Add a URL to use as background for crop-box
   cropBoxBackgroundImage: '',
 
+  cropBoxBackgroundOpacity: NaN,
+
   // Size limitation
   minCanvasWidth: 0,
   minCanvasHeight: 0,
